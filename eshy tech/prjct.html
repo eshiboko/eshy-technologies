@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+h3 {
+font: verdana;
+padding: 10px;
+background-color: white;
+}
+h2 {
+font: verdana;
+padding: 10px;
+background-color: #grey;
+}
+.footer {
+  padding: 20px; /* Some padding */
+  text-align: center; /* Center text*/
+  background: white; /* Grey background */
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+#mine {
+/* Clear floats after image containers */
+.row::after 
+  content: "";
+  clear: both;
+  display: table;
+  .container:hover .image {
+  opacity: 0.3;
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.row {
+  display: flex;
+
+}
+
+.column 
+  flex: 33.33%;
+  padding: 5px;
+}
+</style>
+
+<body>
+<!-- Navigation -->
+<nav class="w3-bar w3-black w3-padding">
+  <a href="prjct.html" class="w3-button w3-bar-item">Home</a>
+  <a href="About.html" class="w3-button w3-bar-item">Services</a>
+  <a href="contacts.html" class="w3-button w3-bar-item">Contact Us</a>
+   <a href="abt.html" class="w3-button w3-bar-item">About Us</a>
+</nav>
+<!-- Slide Show -->
+<div class='nav'>
+<section>
+  <img class="mySlides" src="background.jpg" style="width:100%">
+  <img class="mySlides" src="work.jpg" style="width:100%">
+  <img class="mySlides" src="work2.jpg" style="width:100%">
+  <img class="mySlides" src="work3.jpg" style="width:100%">
+  
+</section>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+<!-- Content will go here -->
+</script>
+
+<section class="w3-container w3-center" style="max-width:600px">
+  <h1 class="w3-wide">ESHY TECHNOLOGIES</h1>
+  <p class="w3-opacity"><i>Welcome to Our Company a home of Technology</i></p>
+
+</section>
+<section class="w3-container w3-content w3-center" style="max-width:600px">
+<p class="w3-justify" style= 'font-size: 18px;'>
+Eshy tech is a  well-established IT company headquartered in Nairobi, Kenya. It has offices in Kenya, Uganda, Rwanda, Burundi and Ethiopia.
+
+Eshy delivers IT solutions to the government, corporate and private sectors with ICT Consultancy, 
+Training, Education, Business Solutions, Infrastructure, and Maintenance Services Our technical
+ services focuses on developing and maintaining the highest level and a suitable blend of skills in core infrastructure products, enabling us to undertake the most intricate and demanding maintenance service jobs.</p>
+<p style= 'font-size: 18px;'> Our aim is to discharge our obligations to our clients, we have a total of 40 technical professionals in Kenya alone through whom we have maintained our position as an accredited service center for all ranges of our core products categories, including:</p>
+<img src="delivery_capacity.jpg" alt='delivery_capacity' />
+</section>
+<a href="abt.html" style= 'text-align: center'><h2>About Us</h2></a>
+
+<div center>
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+	<strong>
+    <p>Technical Experience</p>
+	</strong>
+    <img src="technical.png" alt="software" style="width:100%">
+	<p style= 'font-size: 18px;'>We are experienced in a variety of operating systems, networks, and databases. We work with just about any technology that a small business would encounter. We use this expertise to help 
+	customers with small to mid-sized projects. </p>
+  </article>
+  <article class="w3-third">
+  <strong>
+    <p>High ROI</p>
+	</strong>
+    <img src="roi.png" alt="customers" style="width:100%">
+	<p style= 'font-size: 18px;'>Do you spend most of your IT budget on maintaining your current system? Many companies find that constant maintenance eats into their budget for new technology. By outsourcing your IT management to us, you can
+	focus on running your business</p>
+  </article>
+  <article class="w3-third">
+	<strong>
+    <p>IT Solutions</p>
+	</strong>
+    <img src="looking.png" alt="b2" style="width:100%">
+	<p style= 'font-size: 18px;' >The world of technology can be fast-paced. That's why our goal is to provide an experience that keeps up with your company's needs. We will help you understand how to plan for your technology needs 
+	and invest in your infrastructure.</p>
+  </article><br /><br />
+</div>
+
+<!-- Footer -->
+<div class="footer" style='padding: 60px; text-align: center; background: #333333; color: white'>
+<p>COPYRIGHT © 2020 ESHY TECHNOLOGIES - ALL RIGHTS RESERVED.</p>
+</div>
+
+
+</body>
+</html>
+

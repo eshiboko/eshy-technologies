@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<head>
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+.mm {
+	some padding:60px; 
+	background color:#333333; 
+	color:white 
+	font-size:28px'
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  text-align: center;
+  color: black;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+  font-family: "Arial";
+}
+
+aside {
+  float: right;
+  margin: 0 10%;
+  width: 30%;
+}
+	
+</style>
+</head>
+<body>
+<!-- Navigation -->
+<nav class="w3-bar w3-black w3-padding">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <a href="prjct.html" class="w3-button w3-bar-item">Home</a>
+  <a href="About.html" class="w3-button w3-bar-item">Services</a>
+  <a href="contacts.html" class="w3-button w3-bar-item">Contact Us</a>
+  <a href="abt.html" class="w3-button w3-bar-item">About Us</a>
+</nav>
+<!-- Slide Show -->
+<div class="about-section">
+  <h1>Our Services</h1>
+  <hr />
+  <div>
+		<aside>	
+            <h3><strong>Network Support & Maintenance</strong></h3>
+			<p style= 'font-size: 20px;'>We can set up and maintain your business's network, or help troubleshoot
+			and maintain your existing network. </p>
+        </aside><br />
+        <section>
+            <img src="abt1.jfif" alt="abt1" style="width:500px; height= 500px;">
+        </section>
+    </div><br /><br />
+	<div>
+		<aside style='float: left; margin: 0 5%;
+  width: 30%'>	
+            <h3><strong>IT Support</strong></h3>
+			<p style= 'font-size: 20px;'>We are available to consult with you or your staff when problems arise with your software. We are available for remote 
+			or on-site assistance. </p>
+        </aside>
+	<br />
+        <section>
+            <img src="abt2.jpg" alt="abt1" style="width:500px; height= 500px;">
+        </section>
+    </div><br /><br />
+	<div>
+		<aside style='float: right; margin: 0 10%;
+		width: 30%'>	
+            <h3><strong>Cloud Service & Data Backup</strong></h3>
+			<p style= 'font-size: 20px;'>We will work with you to establish the appropriate cloud service and available resources
+			for your business.</p>
+        </aside><br />
+        <section>
+            <img src="abt3.jfif" alt="abt1" style="width:500px; height= 500px;">
+        </section>
+    </div><br /><br /><br /><br />
+	<div class="body" style='padding: 100px; text-align: center; background: #333333; color: white; font:Arial; font-size:20px'>
+	<p>ONLINE APPOINTMENTS</p><br /><br />
+	<p>New services are coming soon!</p>
+	  <button onclick="document.location='contacts.html'">Book Online</button>
+	</div><br />
+	<section>
+            <img src="work3.jpg" alt="image" style="width:500px; height= 2500px; float:right">
+        </section>
+    </div>
+	<div>
+		<aside style='float: left; margin: 0 15%;
+		width: 30%'>	
+			<h1>FREQUENTLY ASKED QUESTIONS</h1>
+			<h2>Do you offer 24 hour support?</h2>
+			<p>Yes, we are available via chat, email and phone 24/7.
+			We have a dedicated line for emergencies as well.</p><br /><br />
+			
+			<h2>Do you offer trainings on new software?</h2>
+			<p>When needed, we can schedule in house trainings on all products we support. We also provide video tutorials
+			and additional resources on our website.<p>
+			<br /><br />
+			<h2>How secure is our network?</h2>
+			<p>We use the latest technology to secure all information on your business's network. All  breaches have multiple layers to get 
+			through before any data is accessed.</p><br /><br />
+        </aside><br /><br /><br /><br /><br /><hr />
+		
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+
+  <strong>
+    <p>Kenya</p>
+	</strong>
+	<p>info@eshytech.co.ke<p>
+  <p>Tel: +254-712-345-678<p>
+  <p>Mobile: +254-787-654-321<p> <br /><br />
+  <p>8th Floor parkside towers<p>
+  <p>parklands<p>
+  </article>
+   <article class="w3-third">
+  <strong>
+    <p>Ethiopia office</p>
+	</strong>
+	<p>info@eshytech.co.ke<p>
+  <p>Tel: +215-791-345-678<p>
+	
+	<hr />
+	 <strong>
+    <p>Uganda office</p>
+	</strong>
+	<p>info@eshytech.co.ke<p>
+  <p>Tel: +256-781-365-677<p>
+  <hr />
+  <strong>
+    <p>Rwanda office</p>
+	</strong>
+	<p>info@eshytech.co.ke<p>
+  <p>Tel: +257-681-137-25<p> 
+	  </article>
+	<article class="w3-third">
+	  <article class="w3-third">
+  <strong><br /><br />
+    <p>Hours</p>
+	</strong>
+	<p>Monday - Friday: 9am - 5pm</p>
+  <p>Saturday - Sunday: Closed<p><br />
+    </div>
+</body>
+<!-- Footer -->
+<div class="footer" style='padding: 60px; text-align: center; background: #333333; color: white'>
+<p>COPYRIGHT © 2020 ESHY TECHNOLOGIES - ALL RIGHTS RESERVED.</p>
+</div>
+</html>
